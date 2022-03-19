@@ -32,6 +32,13 @@ a {
 }
 
 
+/* header area */
+
+.header_area {
+    background: #fff;
+}
+
+
 /*-----slider area css---- */
 
 .slider_area {
