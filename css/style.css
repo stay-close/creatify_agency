@@ -1,0 +1,234 @@
+/* ------Google Fonts----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*-------- Reset CSS----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s linear;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link,
+a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.team_content h1 span,
+.navbar-brand span,
+.nav-link.active {
+    color: #6c55f9;
+}
+
+
+/*-----slider area css---- */
+
+.slider_area {
+    height: 90vh;
+}
+
+.slider_area .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_area .slider_content h2 {
+    color: #2d2b3a;
+}
+
+.team_img img,
+.slider_img img {
+    height: 100%;
+    width: 80%;
+}
+
+
+/* ----service area---- */
+
+.service_content p {
+    color: #999;
+    font-size: 14px;
+}
+
+
+/* ----our team area--- */
+
+.team_content p {
+    font-size: 15px;
+}
+
+
+/* -----price plan area--- */
+
+.single_price {
+    position: relative;
+    overflow: hidden;
+}
+
+.single_price i {
+    font-size: 45px;
+    color: #b4b2c5;
+}
+
+.single_price h3 {
+    letter-spacing: 3px;
+}
+
+.single_price h1 span,
+.single_price h1 span {
+    font-size: 14px;
+}
+
+.single_price h6 {
+    position: absolute;
+    background: #0ac7f6;
+    width: 100%;
+    top: 8%;
+    right: -40%;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+.single_price:hover {
+    background: #6c55f9;
+    cursor: pointer;
+    color: #fff;
+}
+
+.single_price:hover h3 {
+    color: #d6ba4d !important;
+}
+
+.single_price:hover p {
+    color: #fff !important;
+}
+
+.single_price:hover a {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+
+/* review slider area */
+
+.review_img img {
+    width: 60%;
+}
+
+.review_content h5 span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* contact area */
+
+.contact_content ul li i {
+    width: 30px;
+    height: 30px;
+    padding: 7px 0 0 7px;
+    font-size: 12px;
+}
+
+
+/* our blog area */
+
+.section_heading h5 {
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.section_heading h3 {
+    position: relative;
+}
+
+.section_heading h3::after {
+    position: absolute;
+    content: '';
+    width: 3%;
+    height: 3px;
+    background: #6c55f9;
+    left: 49%;
+    bottom: -20px;
+}
+
+.section_heading h3 span {
+    color: #6c55f9;
+}
+
+.img_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.single_blog {
+    border-radius: 5px;
+}
+
+.single_blog p {
+    font-size: 14px;
+}
+
+.single_blog a {
+    color: #6c55f9;
+}
+
+.content p {
+    color: #bbb;
+}
+
+.single_blog:hover {
+    background: #6c55f9;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.single_blog:hover a,
+.single_blog:hover p {
+    color: #fff !important;
+}
+
+
+/* ---footer area-- */
+
+.single_footer p {
+    font-size: 14px;
+}
+
+.social_link ul li {
+    margin-right: 15px;
+}
+
+.social_link ul li a {
+    width: 30px;
+    height: 30px;
+    color: #6c55f9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+}
+
+.social_link ul li a:hover {
+    border: 2px solid #6c55f9;
+    transform: scale(1.1);
+}

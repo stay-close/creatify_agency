@@ -1,0 +1,11 @@
+@media(max-width: 991px) {
+    .slider_area {
+        height: auto;
+    }
+    .contact_content,
+    .single_price,
+    .single_footer,
+    .single_blog {
+        margin-bottom: 30px;
+    }
+}
